@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Library Course Reading feature.
+ */
+
+include_once 'library_course_reading.features.inc';
