@@ -50,6 +50,20 @@ function library_course_reading_field_default_fields() {
           'type' => 'text_default',
           'weight' => '4',
         ),
+        'full' => array(
+          'label' => 'hidden',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '3',
+        ),
+        'search_result' => array(
+          'label' => 'inline',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_plain',
+          'weight' => '4',
+        ),
         'teaser' => array(
           'label' => 'above',
           'settings' => array(),
@@ -120,6 +134,19 @@ function library_course_reading_field_default_fields() {
           'type' => 'file_default',
           'weight' => '3',
         ),
+        'full' => array(
+          'label' => 'inline',
+          'module' => 'file',
+          'settings' => array(),
+          'type' => 'file_default',
+          'weight' => '2',
+        ),
+        'search_result' => array(
+          'label' => 'inline',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '3',
+        ),
         'teaser' => array(
           'label' => 'above',
           'settings' => array(),
@@ -135,7 +162,7 @@ function library_course_reading_field_default_fields() {
         'description_field' => 1,
         'file_directory' => 'course_readings',
         'file_extensions' => 'pdf',
-        'max_filesize' => '2',
+        'max_filesize' => '4 MB',
         'user_register_form' => FALSE,
       ),
       'widget' => array(
@@ -191,6 +218,19 @@ function library_course_reading_field_default_fields() {
           'module' => 'link',
           'settings' => array(),
           'type' => 'link_default',
+          'weight' => '0',
+        ),
+        'full' => array(
+          'label' => 'inline',
+          'module' => 'link',
+          'settings' => array(),
+          'type' => 'link_default',
+          'weight' => '0',
+        ),
+        'search_result' => array(
+          'label' => 'inline',
+          'settings' => array(),
+          'type' => 'hidden',
           'weight' => '0',
         ),
         'teaser' => array(
@@ -271,6 +311,19 @@ function library_course_reading_field_default_fields() {
           'module' => 'list',
           'settings' => array(),
           'type' => 'list_default',
+          'weight' => '1',
+        ),
+        'full' => array(
+          'label' => 'inline',
+          'module' => 'list',
+          'settings' => array(),
+          'type' => 'list_default',
+          'weight' => '1',
+        ),
+        'search_result' => array(
+          'label' => 'inline',
+          'settings' => array(),
+          'type' => 'hidden',
           'weight' => '1',
         ),
         'teaser' => array(
@@ -366,6 +419,18 @@ function library_course_reading_field_default_fields() {
           'module' => 'list',
           'settings' => array(),
           'type' => 'list_default',
+          'weight' => '2',
+        ),
+        'full' => array(
+          'label' => 'inline',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '5',
+        ),
+        'search_result' => array(
+          'label' => 'inline',
+          'settings' => array(),
+          'type' => 'hidden',
           'weight' => '2',
         ),
         'teaser' => array(
